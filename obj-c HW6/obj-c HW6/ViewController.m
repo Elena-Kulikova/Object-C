@@ -27,7 +27,7 @@
         _nameTextField = [UITextField new];
         _nameTextField.backgroundColor = [UIColor systemTealColor];
         _nameTextField.borderStyle = UITextBorderStyleRoundedRect;
-        _nameTextField.placeholder = @"Name";
+        _nameTextField.placeholder = @"Enter name";
     }
     return _nameTextField;
 }
@@ -39,7 +39,7 @@
         _xCoordTextField.backgroundColor = [UIColor systemMintColor];
         _xCoordTextField.borderStyle = UITextBorderStyleRoundedRect;
         _xCoordTextField.keyboardType = UIKeyboardTypeNumberPad;
-        _xCoordTextField.placeholder = @"X-coordinate";
+        _xCoordTextField.placeholder = @"Enter X-coordinate";
     }
     return _xCoordTextField;
 }
@@ -51,7 +51,7 @@
         _yCoordTextField.backgroundColor = [UIColor systemMintColor];
         _yCoordTextField.borderStyle = UITextBorderStyleRoundedRect;
         _yCoordTextField.keyboardType = UIKeyboardTypeNumberPad;
-        _yCoordTextField.placeholder = @"Y-Coordinate";
+        _yCoordTextField.placeholder = @"Enter Y-Coordinate";
     }
     return _yCoordTextField;
 }
